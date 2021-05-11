@@ -1,0 +1,12 @@
+5) Num outro projeto, cria uma função
+
+     void encontrarPar(List<Integer> lista, int k)
+
+que imprime no console (via System.out.print...)
+um par de números da lista, se existir, cuja SOMA é k
+
+Ex.: lista = { 1, 5, -10, 56, 44, 12, 18 }, k = 34
+     Saída: -10, 44
+
+
+Obs.: Pense numa maneira "esperta" de fazer isso.
