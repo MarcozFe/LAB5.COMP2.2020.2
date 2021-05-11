@@ -66,7 +66,7 @@ public class UsuarioTest {
         quantidade2 = usuario2.obterQuantidadeDeAmigosEmComum(usuario1);
         duracao = System.currentTimeMillis() - inicio;
         System.out.printf("Tempo com o esperto = %.3f\n",duracao/1000f);
-        assertEquals(quantidade1,quantidade2);
+        assertEquals(quantidade1,quantidade2); //Nao esta funcionando o do quantidade2
     }
 
 
